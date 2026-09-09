@@ -243,7 +243,9 @@ export default function Page() {
         </section>
       )}
 
-      <footer className="site-footer"><span className="technical-credit"></span><span></span><span></span><a href="/admin/login"></a></footer>
+      <footer className="site-footer">
+        <a href="/admin/login">Team sign-in</a>
+      </footer>
     </main>
   );
 }
