@@ -4,69 +4,79 @@
     "endDate": "2026-09-11",
     "type": "Event",
     "title": "AURA '26",
-    "details": "6 PM to 10 PM — Open Auditorium"
+    "details": "6 PM to 10 PM — Open Auditorium",
+    "batches": ""
   },
   {
     "startDate": "2026-08-10",
     "endDate": "2026-08-18",
     "type": "Exam",
     "title": "CAT-1",
-    "details": "Fall Semester 26-27 — Common for 2022, 2023, 2024 & 2025 admitted Int. M.Tech. & B.Arch.; 2022, 2023 & 2024 admitted Int. M.Sc.; 2023, 2024 & 2025 admitted B.Tech.; 2024 & 2025 admitted B.B.A.; 2026 & 2025 admitted M.Tech., M.C.A. & M.B.A."
+    "details": "Fall Semester 26-27 — Common for 2022, 2023, 2024 & 2025 admitted Int. M.Tech. & B.Arch.; 2022, 2023 & 2024 admitted Int. M.Sc.; 2023, 2024 & 2025 admitted B.Tech.; 2024 & 2025 admitted B.B.A.; 2026 & 2025 admitted M.Tech., M.C.A. & M.B.A.",
+    "batches": "2022, 2023, 2024, 2025 (Int. M.Tech/B.Arch); 2022, 2023, 2024 (Int. M.Sc); 2023, 2024, 2025 (B.Tech); 2024, 2025 (B.B.A.); 2025, 2026 (M.Tech/M.C.A./M.B.A.)"
   },
   {
     "startDate": "2026-09-21",
     "endDate": "2026-09-28",
     "type": "Exam",
     "title": "CAT-2",
-    "details": "Fall Semester 26-27 — Common for 2022, 2023, 2024 & 2025 admitted Int. M.Tech. & B.Arch.; 2022, 2023 & 2024 admitted Int. M.Sc.; 2023, 2024 & 2025 admitted B.Tech.; 2024 & 2025 admitted B.B.A.; 2026 & 2025 admitted M.Tech., M.C.A. & M.B.A."
+    "details": "Fall Semester 26-27 — Common for 2022, 2023, 2024 & 2025 admitted Int. M.Tech. & B.Arch.; 2022, 2023 & 2024 admitted Int. M.Sc.; 2023, 2024 & 2025 admitted B.Tech.; 2024 & 2025 admitted B.B.A.; 2026 & 2025 admitted M.Tech., M.C.A. & M.B.A.",
+    "batches": "2022, 2023, 2024, 2025 (Int. M.Tech/B.Arch); 2022, 2023, 2024 (Int. M.Sc); 2023, 2024, 2025 (B.Tech); 2024, 2025 (B.B.A.); 2025, 2026 (M.Tech/M.C.A./M.B.A.)"
   },
   {
     "startDate": "2026-10-14",
     "endDate": "2026-10-31",
     "type": "Exam",
     "title": "FAT — Term End Examination",
-    "details": "Fall Semester 26-27 — Common for 2022, 2023, 2024 & 2025 admitted Int. M.Tech. & B.Arch.; 2022, 2023 & 2024 admitted Int. M.Sc.; 2023, 2024 & 2025 admitted B.Tech.; 2024 & 2025 admitted B.B.A.; 2026 & 2025 admitted M.Tech., M.C.A. & M.B.A."
+    "details": "Fall Semester 26-27 — Common for 2022, 2023, 2024 & 2025 admitted Int. M.Tech. & B.Arch.; 2022, 2023 & 2024 admitted Int. M.Sc.; 2023, 2024 & 2025 admitted B.Tech.; 2024 & 2025 admitted B.B.A.; 2026 & 2025 admitted M.Tech., M.C.A. & M.B.A.",
+    "batches": "2022, 2023, 2024, 2025 (Int. M.Tech/B.Arch); 2022, 2023, 2024 (Int. M.Sc); 2023, 2024, 2025 (B.Tech); 2024, 2025 (B.B.A.); 2025, 2026 (M.Tech/M.C.A./M.B.A.)"
   },
   {
     "startDate": "2026-09-07",
     "endDate": "2026-09-09",
     "type": "Exam",
     "title": "CAT-1",
-    "details": "Fall Semester 26-27 — Common for 2026 admitted B.Tech., Int. M.Tech., B.Arch. & B.B.A."
+    "details": "Fall Semester 26-27 — Common for 2026 admitted B.Tech., Int. M.Tech., B.Arch. & B.B.A.",
+    "batches": "2026 (B.Tech/Int. M.Tech/B.Arch/B.B.A.)"
   },
   {
     "startDate": "2026-10-05",
     "endDate": "2026-10-07",
     "type": "Exam",
     "title": "CAT-2",
-    "details": "Fall Semester 26-27 — Common for 2026 admitted B.Tech., Int. M.Tech., B.Arch. & B.B.A."
+    "details": "Fall Semester 26-27 — Common for 2026 admitted B.Tech., Int. M.Tech., B.Arch. & B.B.A.",
+    "batches": "2026 (B.Tech/Int. M.Tech/B.Arch/B.B.A.)"
   },
   {
     "startDate": "2026-10-19",
     "endDate": "2026-10-30",
     "type": "Exam",
     "title": "FAT — Term End Examination",
-    "details": "Fall Semester 26-27 — Common for 2026 admitted B.Tech., Int. M.Tech., B.Arch. & B.B.A."
+    "details": "Fall Semester 26-27 — Common for 2026 admitted B.Tech., Int. M.Tech., B.Arch. & B.B.A.",
+    "batches": "2026 (B.Tech/Int. M.Tech/B.Arch/B.B.A.)"
   },
   {
     "startDate": "2026-12-17",
     "endDate": "2026-12-24",
     "type": "Exam",
     "title": "CAT-1",
-    "details": "Winter Semester 26-27 — Common for 2022, 2023, 2024, 2025 & 2026 admitted Int. M.Tech. & B.Arch.; 2022, 2023 & 2024 admitted Int. M.Sc.; 2023, 2024, 2025 & 2026 admitted B.Tech.; 2024, 2025 & 2026 admitted B.B.A.; 2026 B.Tech., Int. M.Tech., B.Arch., B.B.A. & M.Tech."
+    "details": "Winter Semester 26-27 — Common for 2022, 2023, 2024, 2025 & 2026 admitted Int. M.Tech. & B.Arch.; 2022, 2023 & 2024 admitted Int. M.Sc.; 2023, 2024, 2025 & 2026 admitted B.Tech.; 2024, 2025 & 2026 admitted B.B.A.; 2026 B.Tech., Int. M.Tech., B.Arch., B.B.A. & M.Tech.",
+    "batches": "2022, 2023, 2024, 2025, 2026 (program-specific batches listed in the academic calendar)"
   },
   {
     "startDate": "2027-02-05",
     "endDate": "2027-02-12",
     "type": "Exam",
     "title": "CAT-2",
-    "details": "Winter Semester 26-27 — Common for 2022, 2023, 2024, 2025 & 2026 admitted Int. M.Tech. & B.Arch.; 2022, 2023 & 2024 admitted Int. M.Sc.; 2023, 2024, 2025 & 2026 admitted B.Tech.; 2024, 2025 & 2026 admitted B.B.A.; 2026 B.Tech., Int. M.Tech., B.Arch., B.B.A. & M.Tech."
+    "details": "Winter Semester 26-27 — Common for 2022, 2023, 2024, 2025 & 2026 admitted Int. M.Tech. & B.Arch.; 2022, 2023 & 2024 admitted Int. M.Sc.; 2023, 2024, 2025 & 2026 admitted B.Tech.; 2024, 2025 & 2026 admitted B.B.A.; 2026 B.Tech., Int. M.Tech., B.Arch., B.B.A. & M.Tech.",
+    "batches": "2022, 2023, 2024, 2025, 2026 (program-specific batches listed in the academic calendar)"
   },
   {
     "startDate": "2027-03-11",
     "endDate": "2027-03-31",
     "type": "Exam",
     "title": "FAT — Term End Examination",
-    "details": "Winter Semester 26-27 — Common for 2022, 2023, 2024, 2025 & 2026 admitted Int. M.Tech. & B.Arch.; 2022, 2023 & 2024 admitted Int. M.Sc.; 2023, 2024, 2025 & 2026 admitted B.Tech.; 2024, 2025 & 2026 admitted B.B.A.; 2026 B.Tech., Int. M.Tech., B.Arch., B.B.A. & M.Tech."
+    "details": "Winter Semester 26-27 — Common for 2022, 2023, 2024, 2025 & 2026 admitted Int. M.Tech. & B.Arch.; 2022, 2023 & 2024 admitted Int. M.Sc.; 2023, 2024, 2025 & 2026 admitted B.Tech.; 2024, 2025 & 2026 admitted B.B.A.; 2026 B.Tech., Int. M.Tech., B.Arch., B.B.A. & M.Tech.",
+    "batches": "2022, 2023, 2024, 2025, 2026 (program-specific batches listed in the academic calendar)"
   }
 ]
