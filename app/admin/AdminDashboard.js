@@ -90,7 +90,7 @@ export default function AdminDashboard() {
   return (
     <main className="page admin-page">
       <header className="top">
-        <div><h1>Hostel Calendar Admin</h1><p className="muted">HEC · VIT Bhopal · Local calendar data</p></div>
+        <div><h1>Hostel Calendar Admin</h1><p className="muted">HEC ·  · Local calendar data</p></div>
         <button type="button" className="link-btn" onClick={logout}>Sign out</button>
       </header>
 

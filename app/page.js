@@ -154,20 +154,20 @@ export default function Page() {
           <div className="brand-logo-wrap"><img className="brand-logo hac-logo" src="/hac-logo.png" alt="Hostel Administrative Council logo" /></div>
           <div>
             <h1>Hostel Administrative Council</h1>
-            <p>Students · Community · Better Living</p>
+            <p></p>
           </div>
         </div>
-        <div className="header-motto">More Than a Hostel<br /><strong>A Home</strong></div>
+        <div className="header-motto"><br /><strong></strong></div>
         <div className="institution identity-right">
           <div className="vit-copy"><h2>VIT' Bhopal</h2><p>Vellore Institute of Technology</p><small>Bhopal</small></div>
-          <div className="brand-logo-wrap vit-logo-wrap"><img className="brand-logo vit-logo" src="/vit-bhopal-logo.png" alt="VIT Bhopal logo" /></div>
+          <div className="brand-logo-wrap vit-logo-wrap"><img className="brand-logo vit-logo" src="/vit-bhopal-logo.png" alt=" logo" /></div>
         </div>
       </header>
 
       <section className="calendar-heading">
         <div className="calendar-title-wrap">
           <div className="calendar-icon">▦</div>
-          <div><h2>Hostel Calendar</h2><p>Your complete hostel life at a glance</p></div>
+          <div><h2>Hostel Calendar</h2><p></p></div>
         </div>
         <ul className="legend">
           {LEGEND.map((item) => <li key={item.key}><span className={`legend-dot dot-${item.color}`} />{item.label}</li>)}
@@ -198,7 +198,7 @@ export default function Page() {
           </aside>
 
           <section className="calendar-panel">
-            <div className="calendar-panel-head"><div><span>HOSTEL CALENDAR</span><h3>{MONTH_NAMES[cursor.month]} {cursor.year}</h3></div><span className="month-count">{items.length} item{items.length === 1 ? "" : "s"}</span></div>
+            <div className="calendar-panel-head"><div><span></span><h3>{MONTH_NAMES[cursor.month]} {cursor.year}</h3></div><span className="month-count">{items.length} item{items.length === 1 ? "" : "s"}</span></div>
             <div className="weekday-row">{WEEKDAYS.map((day) => <div key={day}>{day}</div>)}</div>
             <div className="calendar-grid">
               {grid.map(({ date, inMonth }) => {
@@ -244,7 +244,7 @@ export default function Page() {
         </section>
       )}
 
-      <footer className="site-footer"><span className="technical-credit">Made by Technical Team HEC © 2026</span><span>HOSTEL CALENDAR</span><span>VIT Bhopal</span><a href="/admin/login">Team sign-in</a></footer>
+      <footer className="site-footer"><span className="technical-credit"></span><span></span><span></span><a href="/admin/login"></a></footer>
     </main>
   );
 }
