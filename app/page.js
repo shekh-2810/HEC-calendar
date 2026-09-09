@@ -159,14 +159,13 @@ export default function Page() {
         </div>
         <div className="header-motto"><br /><strong></strong></div>
         <div className="institution identity-right">
-          <div className="vit-copy"><h2>VIT' Bhopal</h2><p>Vellore Institute of Technology</p><small>Bhopal</small></div>
+          <div className="vit-copy"><h2>VIT Bhopal</h2><p>Vellore Institute of Technology</p><small>Bhopal</small></div>
           <div className="brand-logo-wrap vit-logo-wrap"><img className="brand-logo vit-logo" src="/vit-bhopal-logo.png" alt=" logo" /></div>
         </div>
       </header>
 
       <section className="calendar-heading">
         <div className="calendar-title-wrap">
-          <div className="calendar-icon">▦</div>
           <div><h2>Hostel Calendar</h2><p></p></div>
         </div>
         <ul className="legend">

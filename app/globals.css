@@ -88,3 +88,469 @@ a { color: inherit; }
 
 @media (max-width: 1120px) { .institution-header { grid-template-columns:1fr 1fr; }.header-motto { display:none; }.calendar-heading { grid-template-columns:1fr auto; }.legend { grid-column:1/-1; grid-row:2; }.dashboard-grid { grid-template-columns:1fr; }.side-panel,.calendar-panel { min-height:auto; }.side-list { display:grid; grid-template-columns:repeat(2,1fr); }.calendar-panel { order:-1; } }
 @media (max-width: 720px) { .site-shell { padding:0 10px 20px; }.institution-header { padding:14px 8px; }.institution h1 { font-size:1.05rem; }.institution p { font-size:.72rem; }.hac-logo { width:62px; height:62px; }.vit-logo { width:66px; height:66px; }.vit-copy h2 { font-size:1.25rem; }.vit-copy p,.vit-copy small { font-size:.65rem; }.calendar-heading { grid-template-columns:1fr; }.legend { grid-column:auto; grid-row:auto; flex-wrap:wrap; }.month-controls { justify-content:space-between; }.month-controls > div { min-width:0; flex:1; }.calendar-grid,.weekday-row { gap:3px; }.calendar-cell { min-height:72px; padding:6px; }.cell-exam span { display:none; }.cell-event { font-size:.56rem; }.side-list { grid-template-columns:1fr; }.site-footer { flex-wrap:wrap; justify-content:center; text-align:center; }.admin-form { grid-template-columns:1fr; }.field-wide { grid-column:auto; }.admin-form > button[type="submit"] { grid-column:auto; }.upload-form { grid-template-columns:1fr; } }
+
+/* =========================================================
+   MOBILE UI — HEC HOSTEL CALENDAR
+   ========================================================= */
+
+@media (max-width: 720px) {
+
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .site-shell {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 8px 20px;
+    box-sizing: border-box;
+  }
+
+  /* ---------- HEADER ---------- */
+
+  .institution-header {
+    width: 100%;
+    min-height: auto;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    padding: 12px 6px 14px;
+    align-items: center;
+  }
+
+  .identity-left,
+  .identity-right {
+    min-width: 0;
+    gap: 8px;
+  }
+
+  .identity-left {
+    justify-content: flex-start;
+  }
+
+  .identity-right {
+    justify-content: flex-end;
+  }
+
+  .institution h1 {
+    font-size: 0.92rem;
+    line-height: 1.08;
+    letter-spacing: -0.025em;
+  }
+
+  .institution p {
+    display: none;
+  }
+
+  .hac-logo {
+    width: 52px;
+    height: 52px;
+  }
+
+  .vit-logo {
+    width: 48px;
+    height: 48px;
+  }
+
+  .vit-copy h2 {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.05;
+  }
+
+  .vit-copy p,
+  .vit-copy small {
+    font-size: 0.58rem;
+    line-height: 1.15;
+    margin-top: 3px;
+  }
+
+  .header-motto {
+    display: none;
+  }
+
+  /* ---------- MAIN CALENDAR HEADER ---------- */
+
+  .calendar-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    margin-top: 8px;
+    padding: 14px 12px 12px;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .calendar-title-wrap {
+    gap: 10px;
+  }
+
+  .calendar-icon {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    font-size: 1.65rem;
+    border-radius: 10px;
+  }
+
+  .calendar-heading h2 {
+    font-size: 1.55rem;
+    line-height: 1.1;
+  }
+
+  .calendar-heading p {
+    display: none;
+  }
+
+  /* ---------- LEGEND ---------- */
+
+  .legend {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px 12px;
+    white-space: normal;
+  }
+
+  .legend li {
+    font-size: 0.78rem;
+  }
+
+  .legend-dot,
+  .cell-dots span {
+    width: 9px;
+    height: 9px;
+    min-width: 9px;
+  }
+
+  /* ---------- MONTH CONTROLS ---------- */
+
+  .month-controls {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 42px 1fr 42px;
+    gap: 7px;
+    align-items: center;
+  }
+
+  .month-controls > button {
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    font-size: 1.35rem;
+  }
+
+  .month-controls > div {
+    min-width: 0;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .month-controls .today-btn {
+    grid-column: 1 / -1;
+    width: 100%;
+    height: 40px;
+    font-size: 0.8rem;
+  }
+
+  /* ---------- THREE COLUMN DESKTOP -> MOBILE ---------- */
+
+  .dashboard-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .calendar-panel,
+  .side-panel {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+  }
+
+  .calendar-panel {
+    order: 1;
+    padding: 10px;
+  }
+
+  .exams-panel {
+    order: 2;
+  }
+
+  .events-panel {
+    order: 3;
+  }
+
+  /* ---------- CALENDAR ---------- */
+
+  .calendar-panel-head {
+    padding: 2px 2px 10px;
+    align-items: center;
+  }
+
+  .calendar-panel-head h3 {
+    font-size: 1.3rem;
+  }
+
+  .month-count {
+    font-size: 0.72rem;
+  }
+
+  .weekday-row,
+  .calendar-grid {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 3px;
+  }
+
+  .weekday-row {
+    margin-bottom: 3px;
+  }
+
+  .weekday-row div {
+    font-size: 0.65rem;
+    padding: 5px 0;
+  }
+
+  .calendar-cell {
+    width: 100%;
+    min-width: 0;
+    min-height: 76px;
+    height: 76px;
+    box-sizing: border-box;
+    padding: 6px 5px;
+    border-radius: 8px;
+  }
+
+  .day-number {
+    font-size: 0.82rem;
+  }
+
+  .cell-dots {
+    margin-top: 5px;
+    gap: 3px;
+  }
+
+  .cell-exam {
+    margin-top: 5px;
+    gap: 1px;
+    max-width: 100%;
+  }
+
+  .cell-exam strong {
+    font-size: 0.62rem;
+    line-height: 1;
+  }
+
+  .cell-exam span {
+    display: block;
+    max-width: 100%;
+    font-size: 0.49rem;
+    line-height: 1.1;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .cell-event {
+    margin-top: 5px;
+    font-size: 0.5rem;
+    line-height: 1.1;
+    white-space: normal;
+    max-height: 2.2em;
+  }
+
+  /* ---------- SELECTED DATE ---------- */
+
+  .selected-day {
+    margin-top: 8px;
+    padding: 10px;
+    border-radius: 11px;
+  }
+
+  .selected-head {
+    align-items: flex-start;
+  }
+
+  .selected-head h4 {
+    font-size: 0.82rem;
+    line-height: 1.25;
+  }
+
+  .selected-head span {
+    font-size: 0.65rem;
+  }
+
+  .selected-item {
+    padding: 8px;
+    gap: 7px;
+  }
+
+  .type-pill {
+    font-size: 0.6rem;
+    padding: 3px 6px;
+  }
+
+  .selected-item strong {
+    font-size: 0.72rem;
+  }
+
+  .selected-item small {
+    font-size: 0.64rem;
+  }
+
+  .selected-batch {
+    font-size: 0.64rem;
+  }
+
+  /* ---------- EXAMS / EVENTS ---------- */
+
+  .side-panel {
+    padding: 12px;
+  }
+
+  .panel-heading {
+    gap: 9px;
+    margin-bottom: 10px;
+  }
+
+  .panel-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    font-size: 1.35rem;
+    border-radius: 10px;
+  }
+
+  .panel-heading h3 {
+    font-size: 1.08rem;
+  }
+
+  .panel-heading p {
+    font-size: 0.68rem;
+  }
+
+  .side-list {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .exam-card,
+  .event-card {
+    padding: 8px;
+    gap: 8px;
+    border-radius: 11px;
+  }
+
+  .date-tile {
+    width: 52px;
+    min-width: 52px;
+    height: 58px;
+    border-radius: 9px;
+  }
+
+  .date-tile strong {
+    font-size: 1.2rem;
+  }
+
+  .date-tile span {
+    font-size: 0.55rem;
+  }
+
+  .card-content > strong {
+    font-size: 0.78rem;
+  }
+
+  .batch-text {
+    font-size: 0.68rem;
+  }
+
+  .card-content small {
+    font-size: 0.64rem;
+  }
+
+  /* ---------- FOOTER ---------- */
+
+  .site-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 18px 6px 8px;
+    margin-top: 8px;
+    font-size: 0.68rem;
+  }
+
+  .technical-credit {
+    font-size: 0.78rem;
+    font-weight: 900;
+  }
+
+  .site-footer span:nth-child(2) {
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+  }
+
+  .site-footer a {
+    font-size: 0.68rem;
+  }
+}
+
+/* Extra-small phones */
+@media (max-width: 390px) {
+
+  .institution-header {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .hac-logo {
+    width: 46px;
+    height: 46px;
+  }
+
+  .vit-logo {
+    width: 43px;
+    height: 43px;
+  }
+
+  .institution h1 {
+    font-size: 0.82rem;
+  }
+
+  .vit-copy h2 {
+    font-size: 0.88rem;
+  }
+
+  .calendar-heading h2 {
+    font-size: 1.4rem;
+  }
+
+  .calendar-cell {
+    min-height: 70px;
+    height: 70px;
+    padding: 5px 4px;
+  }
+
+  .day-number {
+    font-size: 0.76rem;
+  }
+
+  .cell-exam strong {
+    font-size: 0.56rem;
+  }
+
+  .cell-exam span {
+    font-size: 0.45rem;
+  }
+
+  .cell-event {
+    font-size: 0.45rem;
+  }
+}
+
