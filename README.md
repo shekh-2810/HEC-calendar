@@ -70,3 +70,5 @@ The public UI intentionally displays exam entries as `CAT-1`, `CAT-2`, or `FAT` 
 ## Persistence note
 
 `data/calendar.json` is suitable for a local machine or persistent server. Serverless deployments with ephemeral filesystems should use a persistent database or storage provider before relying on admin writes in production.
+
+## Made by Tech Team HEC
